@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+/* font-family: 'Ubuntu', sans-serif; */
+
+.container {
+    width: 900px;
+    margin:50px auto;
+    /* background-color: cyan; */
+}
+.nav {
+    width: 900px;
+    /* height: 100px;    */
+    background-color: rgb(16, 116, 173);
+    display: flex;
+}
+a.logo {
+    width: 200px;
+    margin: 20px;
+    float: left;
+
+}
+    ul {
+        display: flex;
+        text-decoration: none;
+        list-style: none;
+        float: left;
+        padding: 0px 20px;
+        width: 700px;
+    }
+    li {
+        display: inline-block;
+        padding: 9px;
+        /* background: rgb(255, 255, 255); */
+        list-style: none;
+        text-decoration: none;
+    }
+    section.banner {
+        margin: 0px 30px;
+        position: fixed;
+        min-height: 100vh;
+        justify-content: space-between;
+        align-items: center;
+        background: url(images/bg.jpg);
+        width: 900px;
+        height: 200px;
+        
+    }
+
+
+
+
+
+
+
+
+
+///html////
+<div class="container">
+        <!-- <img src="images/bg.jpg" alt=""> -->
+     <div class="nav">
+        <a href="#" class="logo">Portfolio</a>
+           <div class="toggle"> 
+               <ul>
+                   <li> <a href="#">Home</a></li>
+                   <li> <a href="#">About Me</a></li>
+                   <li> <a href="#">Contact</a> </li>
+                   <li> <a href="#">Qualifications</a></li>
+                   <li> <a href="#">Languages</a> </li>
+               </ul>
+           </div>
+     </div>
+    </div>
+    <section class="banner">
+        <div class="textBox">
+            <h2>Name : Eaindra Moet Moet Aung</h2>
+            <h3>Position : Junior Web Developer</h3>
+            <a href="#" class="btn">Qualification</a>
+        </div>
+    </section>
